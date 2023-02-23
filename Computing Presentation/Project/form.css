@@ -1,0 +1,156 @@
+body{
+    background-image: url(images/body_form.jpg);
+    background-size: 100%;
+}
+
+/* ===========================Header============================= */
+.header{
+    margin: auto;
+    background-color: #000000cb;
+    width: 90%;
+    height: 170px;
+    border: 3px solid rgba(255, 255, 255, 0.952);
+    border-radius: 10px;
+}
+
+.logoOrTitle{
+    margin: auto;
+    /* background-color: #838679; */
+    width: 98%;
+    height: 105px;
+}
+.logoOrTitle h2{
+    transform: translate(0px, -110px);
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto;
+    color: white;
+}
+#logo{
+    transform: translate(0px, 5px);
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.705);
+    border-radius: 50%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.manu{
+    color: #ffffff;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 50%;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, 0.836);
+    border-radius: 7px;
+}
+.manu a{
+    float: left;
+    margin-left: 66px;
+    transform: translate(0px, 8px);
+    color: white;
+    font-size: 28px;
+    font-family: LT Internet, sans-serif;
+    text-decoration: none;
+}
+/* ====================End Header===================== */
+#main{
+    margin: auto;
+    background-color: #000000b7 ;
+    width: 80%;
+    border: 5px solid rgba(255, 255, 255, 0.884);
+    border-radius: 10px;
+}
+/* =================================FORM======================== */
+/* Form Without Muse Hover */
+.main_form{
+    margin-left: 300px;
+    width: 40%;
+    background-image: url(images/form_image.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+/* Mouse Hover */
+.main_form:hover{
+    margin-left: 300px;
+    width: 40%;
+    background-image: url(images/form_image.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 1;
+}
+.register{
+    margin: auto;
+    color: #ffffff;
+    width: 80%;
+}
+.register h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+/* Without Mouse hover */
+#form_register{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Sans Mateo 2';
+    opacity: 0.1;
+}
+#lable_N_A_E input{
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.658) 2px 2px 1px inset;
+}
+#gender_L_S{
+    font-size: 16px;
+}
+#gender_L_S label{
+    font-size: 18px;
+}
+
+/* Mouse hover */
+#form_register:hover{
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    font-family: 'Sans Mateo 2';
+    opacity: 1;
+
+}
+
+#lable_N_A_E input:hover{
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.658) 2px 2px 1px inset;
+}
+#gender_L_S:hover{
+    font-size: 16px;
+}
+#gender_L_S label:hover{
+    font-size: 18px;
+}
+#submit{
+    text-align: center;
+}
+#submit input{
+    width: 30%;
+    font-size: 18px;
+    border-radius: 3px;
+}
+/* ================= End FORM==================== */

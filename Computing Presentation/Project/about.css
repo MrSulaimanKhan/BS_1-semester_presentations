@@ -1,0 +1,163 @@
+body{
+    background-image: url(images/body_image.jpg);
+    background-size: cover;
+}
+
+/* ===========================Header============================= */
+.header{
+    margin: auto;
+    background-color: #000000cb;
+    width: 90%;
+    height: 170px;
+    border: 3px solid rgba(255, 255, 255, 0.884);
+    border-radius: 10px;
+}
+.logoOrTitle{
+    margin: auto;
+    /* background-color: #838679; */
+    width: 98%;
+    height: 105px;
+}
+.logoOrTitle h2{
+    transform: translate(0px, -110px);
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto;
+    color: white;
+}
+#logo{
+    transform: translate(0px, 5px);
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.89);
+    border-radius: 50%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.manu{
+    color: #ffffff;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 50%;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, 0.877);
+    border-radius: 7px;
+}
+.manu a{
+    float: left;
+    margin-left: 66px;
+    transform: translate(0px, 8px);
+    color: white;
+    font-size: 28px;
+    font-family: LT Internet, sans-serif;
+    text-decoration: none;
+}
+/* ====================End Header===================== */
+
+#main{
+    margin: auto;
+    background-color: #000000b7 ;
+    width: 80%;
+    border: 5px solid rgba(255, 255, 255, 0.897);
+    border-radius: 10px;
+}
+#main h1{
+    font-family: Quantify;
+    color: #faf2fa ;
+    font-size: 35px;
+}
+#line{
+    margin: auto;
+    transform: translate(0px, -15px);
+    width: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.877);
+    border-radius: 50%;
+}
+
+#about_course{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.836) 0px 5px 15px;
+}
+#about_course h2{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cano;
+
+}
+.u_line{
+    margin: auto;
+    transform: translate(0px, -30px);
+    width: 200px;
+    border: 2px solid rgba(116, 115, 115, 0.863);
+    border-radius: 10px;
+}
+#about_course div address{
+    color: rgb(3, 3, 37);
+    margin-left: 60px;
+    font-size: 22px;
+    font-family: 'stark';
+    transform: translate(0px, -10px);
+}
+
+/* ============================List========================*/
+.main_list{
+    color: rgb(3, 3, 37);
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: 370px;
+    object-fit: cover;
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.836) 0px 5px 15px;
+
+
+}
+.main_list h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: cano;
+}
+.list_heading{
+    float: left;
+    margin-left: 70px;
+    transform: translate(0px, -20px);
+    background-color: #e5ff9d;
+    width: 35%;
+    height: 50px;
+    border-radius: 5px;
+}
+.list_heading h3{
+    color: #4D084F;
+    font-size: 30px;
+    text-align: center;
+    transform: translate(0px, -25px);
+    font-family: 'Sans Mateo 2';
+}
+.list_1_2{
+    transform: translate(0px, -10px);
+    float: left;
+    margin-left: 23px;
+    background-color: #ffffff;
+    width: 45%;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.767) 0px 3px 7px;
+
+    font-size: 20px;
+    font-family:'stark';
+}
+/* ========================== End List=============================== */
